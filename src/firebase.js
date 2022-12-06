@@ -8,6 +8,7 @@ const firebaseConfig = {
   messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
   appId: process.env.REACT_APP_ID,
   measurementId: process.env.REACT_APP_MEASURMENT_ID,
+  databaseURL: process.env.REACT_APP_DATABASE_URL,
 };
 const app = initializeApp(firebaseConfig);
 export default app;
